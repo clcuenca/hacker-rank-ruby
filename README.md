@@ -2,21 +2,20 @@
 
 ## Description
 
-Collection of various Hacker Rank problems written in Ruby
+Collection of various Hacker Rank problems written in Ruby.
 
-## Solved Categories
+## Categories in Progress
 
-* **Algorithms/warmup**
+* **Algorithms**
+
+## Structure
+
+This repository aims to keep each category & sub categories in their own directory to reflect the structure of Hacker Rank's problem sets; e.g. algorithms -> warmup -> *problem*. Each problem will compile & able to be ran on the command line as well as, include a makefile & input.txt file to display the results. Each program is designed to consume the included input file.
 
 ## Program Execution
 
-All programs are listed in their own directory, and within the directory there is in input.txt file
-included. The input.txt file contains test cases, and allows for additional test cases to be appended to the file.
-Each of the programs has support for stdin (so far) and can be used with input redirection to execute through all
-of the test cases, so the only thing that should be edited is the input.txt file itself. To run a program use a terminal/console and type in the following within the corresponding directory:
+The following command is used to execute each of the programs:
 
-```ruby
-ruby <script_name>.rb < input.txt
+```bash
+ruby <program name>.rb < input.txt
 ```
-
-So far this has been tested with cygwin, but the principle should hold for macOS & linux systems.
